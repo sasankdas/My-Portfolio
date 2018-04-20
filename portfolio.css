@@ -2,6 +2,15 @@
     background-image: url("https://images.ctfassets.net/nj2caiz7hkjw/5SaV7GckKc26QoKiKAgway/248d97efbae06ae76214babb3de19f4c/my-web-developer-career-story.jpg");
     height: 100vh; 
 }
+.bio{
+    position: relative;
+    text-align: justify;
+    margin: auto;
+    width: 50%;
+    line-height: 1.6;
+    font-size: 20px;
+    color: grey;;
+}
 body{
     margin:0;
    
@@ -19,6 +28,7 @@ body{
     text-decoration: none;
     padding: 10px;
     font-size: 20px;
+    color: grey;
 }
 .header-right{
     float: right;
