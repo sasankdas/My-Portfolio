@@ -1,12 +1,19 @@
+.container{
+    background-image: url("https://images.ctfassets.net/nj2caiz7hkjw/5SaV7GckKc26QoKiKAgway/248d97efbae06ae76214babb3de19f4c/my-web-developer-career-story.jpg");
+    height: 100vh; 
+}
 body{
     margin:0;
+   
 }
+
 .header{
     overflow:  hidden;
-    background-color: grey;
     padding: 20px 10px;
-  }
+    
+   }
 .header a{
+    display: block;
     float:left;
     text-align: center;
     text-decoration: none;
@@ -15,4 +22,12 @@ body{
 }
 .header-right{
     float: right;
+}
+.left-gap{
+    margin-left : 10px;
+}
+.gap{
+   
+    margin:0;
+    padding: 0;
 }
